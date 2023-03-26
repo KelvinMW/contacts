@@ -24,7 +24,7 @@ OC.L10N.register(
     "Save changes" : "Guardar alterações",
     "Address book" : "Livro de endereços",
     "No search result for {query}" : "Sem resultados de pesquisa para {query}",
-    "_%n contact_::_%n contacts_" : ["%n contacto","%n contactos"],
+    "_%n contact_::_%n contacts_" : ["%n contacto","%n contactos","%n contactos"],
     "Post office box" : "Apartado",
     "Postal code" : "Código Postal",
     "City" : "Cidade",
@@ -43,6 +43,8 @@ OC.L10N.register(
     "Sort by" : "Ordenar por",
     "{addressbook} shared by {owner}" : "{addressbook} partilhado por {owner}",
     "Contact could not be created." : "Não foi possível criar o contacto.",
+    "No contacts in file. Only vCard files are allowed." : "Nenhum contacto no ficheiro. Apenas ficheiros vCard são permitidos",
+    "Only vCard version 4.0 (RFC6350) or version 3.0 (RFC2426) are supported." : "Apenas é suportado vCard com versão 4.0 (RFC6350) ou versão 3.0(RFC2426)",
     "Display name" : "Mostrar nome",
     "Nickname" : "Alcunha",
     "Detailed name" : "Nome em detalhe",
@@ -68,4 +70,4 @@ OC.L10N.register(
     "Social network" : "Rede Social",
     "Settings" : "Definições"
 },
-"nplurals=2; plural=(n != 1);");
+"nplurals=3; plural=(n == 0 || n == 1) ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;");

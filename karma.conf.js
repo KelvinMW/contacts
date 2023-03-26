@@ -20,9 +20,9 @@ module.exports = function(config) {
 			'js/vendor/ui-select/dist/select.js',
 
 			'js/dav/dav.js',
-			'js/vendor/vcard/src/vcard.js',
+			'js/vcard/vcard.js',
 
-			'js/vendor/underscore/underscore.js',
+			'js/vendor/underscore/underscore-umd.js',
 			'js/vendor/angular-mocks/angular-mocks.js',
 
 			'js/main.js',

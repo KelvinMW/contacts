@@ -6,6 +6,7 @@ npm-debug.log
 package-lock.json
 
 .php_cs.cache
+.php-cs-fixer.cache
 
 # Composer
 vendor/
@@ -18,7 +19,16 @@ vendor-bin/**/composer.lock
 # Tests - auto-generated files
 /tests/acceptance/output*
 /tests/output/
+.phpunit.result.cache
 
 # Node.js modules
 node_modules/
 
+# SonarCloud scanner
+.scannerwork
+
+# drone CI is in .drone.star, do not let someone accidentally commit a local .drone.yml
+.drone.yml
+# IDE Caches
+.idea/
+.vscode/
